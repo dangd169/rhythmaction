@@ -18,4 +18,10 @@ public class PressSwitch : MonoBehaviour {
 			other.SendMessage("Clickable");
 		}
 	}
+
+	void OnTriggerExit (Collider other){
+		if(other.gameObject.CompareTag ("RightNote")  || other.gameObject.CompareTag ("LeftNote")){
+			other.SendMessage("NotClickable");
+		}
+	}
 }

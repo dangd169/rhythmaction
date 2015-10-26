@@ -3,15 +3,16 @@ using System.Collections;
 
 public class MovingForward : MonoBehaviour {
 
-	public float speed = 10f;
+	public float speed = -1;
+	public AudioSource song;
+	Rigidbody rb;
 
 	void Start () {
-
+		song.Play();
+		rb= GetComponent<Rigidbody>();
 	}
 
-	void Update () {
-
-		transform.position -= transform.forward * Time.deltaTime * speed;
-
+	void FixedUpdate () {
+		rb.velocity = new Vector3(0, 0, speed);
 	}
 }

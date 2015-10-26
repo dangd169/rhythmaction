@@ -28,4 +28,8 @@ public class NoteLogic : MonoBehaviour {
 	void Clickable () {
 		click = true;
 	}
+
+	void NotClickable () {
+		click = false;
+	}
 }
