@@ -20,7 +20,7 @@ public class TouchManager : MonoBehaviour {
 
 		if(Input.GetMouseButtonDown(1)){
 			GameObject rightClone;
-			rightClone = Instantiate(rightNote, rightSpawn.position, Quaternion.identity) as GameObject;
+			rightClone = Instantiate(rightNote, rightSpawn.position, rightSpawn.rotation) as GameObject;
 			rightClone.transform.parent = track.transform;
 		}
 	
