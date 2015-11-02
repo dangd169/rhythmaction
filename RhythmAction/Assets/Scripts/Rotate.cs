@@ -4,23 +4,23 @@ using System.Collections;
 public class Rotate : MonoBehaviour {
 
 
-	public GameObject leftArm;
-	public GameObject rightArm;
+	public MeshRenderer leftArm;
+	public MeshRenderer rightArm;
+	
+	void Update (){
 
-	void Update () {
 		if(Input.GetMouseButtonDown(0)){
-			leftArm.SendMessage("Left");
+			leftArm.enabled = false;
 		}
 		if(Input.GetMouseButtonUp(0)){
-			leftArm.SendMessage("Left1");
+			leftArm.enabled = true;
 		}
 		if(Input.GetMouseButtonDown(1)){
-			rightArm.SendMessage("Right");
+			rightArm.enabled = false;
 		}
 		if(Input.GetMouseButtonUp(1)){
-			leftArm.SendMessage("Right1");
+			rightArm.enabled = true;
 		}
-
-	
 	}
+		
 }

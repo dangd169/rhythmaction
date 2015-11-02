@@ -32,8 +32,6 @@ public class NoteLogic : MonoBehaviour {
 	void Update () {
 
 
-
-
 		if(spriteColor == 1){
 			red.enabled=true;
 		}
