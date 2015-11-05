@@ -20,8 +20,14 @@ public class NoteLogic : MonoBehaviour {
 	bool falling;
 	float offset = 10;
 
+	public static float score;
+
+	public ParticleSystem left;
+	public ParticleSystem right;
+
 
 	void Start () {
+		score = 0;
 		spriteColor = Random.Range(1,5);
 		offset = Random.Range(-.15f,.15f);
 		Vector3 temp = new Vector3(offset,0,0);
@@ -57,17 +63,21 @@ public class NoteLogic : MonoBehaviour {
 		if(click){
 			if(Input.GetMouseButtonDown(1) && this.gameObject.CompareTag ("RightNote")){
 				spinning = true;
-				//Invoke ("Destroy",.75);
+				Invoke ("Destroy",.75f);
+				right.Emit(20);
+
 			
 
-				//ROTATE
+
 			}
 			if(Input.GetMouseButtonDown(0) && this.gameObject.CompareTag ("LeftNote")){
 				spinning = true;
-				//Invoke ("Destroy",.75);
+				Invoke ("Destroy",.75f);
+				left.Emit(20);
 
 
-				//ROTATE
+
+
 			}
 		}
 	
