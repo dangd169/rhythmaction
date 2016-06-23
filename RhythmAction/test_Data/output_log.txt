@@ -6,30 +6,36 @@ Direct3D:
     Vendor:   NVIDIA
     VRAM:     1990 MB
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\short\Documents\rhythmaction\rhythmaction\test_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\short\Documents\rhythmaction\rhythmaction\test_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\short\Documents\rhythmaction\rhythmaction\test_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
-Loading C:\Users\short\Documents\rhythmaction\rhythmaction\test_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
-Platform assembly: C:\Users\short\Documents\rhythmaction\rhythmaction\test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\short\Documents\rhythmaction\rhythmaction\test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\short\Documents\rhythmaction\rhythmaction\test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\short\Documents\rhythmaction\rhythmaction\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\short\Documents\rhythmaction\rhythmaction\test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\short\Documents\rhythmaction\rhythmaction\test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\Users\short\Documents\rhythmaction\rhythmaction\test_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
-Loading C:\Users\short\Documents\rhythmaction\rhythmaction\test_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-Platform assembly: C:\Users\short\Documents\rhythmaction\rhythmaction\test_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.059 seconds
+Platform assembly: C:\Users\short\Google Drive\3 Junior\Fall Semester\Core Lab Game Systems\rhythmaction\rhythmaction\test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\short\Google Drive\3 Junior\Fall Semester\Core Lab Game Systems\rhythmaction\rhythmaction\test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\short\Google Drive\3 Junior\Fall Semester\Core Lab Game Systems\rhythmaction\rhythmaction\test_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\short\Google Drive\3 Junior\Fall Semester\Core Lab Game Systems\rhythmaction\rhythmaction\test_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\short\Google Drive\3 Junior\Fall Semester\Core Lab Game Systems\rhythmaction\rhythmaction\test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\short\Google Drive\3 Junior\Fall Semester\Core Lab Game Systems\rhythmaction\rhythmaction\test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\short\Google Drive\3 Junior\Fall Semester\Core Lab Game Systems\rhythmaction\rhythmaction\test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\short\Google Drive\3 Junior\Fall Semester\Core Lab Game Systems\rhythmaction\rhythmaction\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\short\Google Drive\3 Junior\Fall Semester\Core Lab Game Systems\rhythmaction\rhythmaction\test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\short\Google Drive\3 Junior\Fall Semester\Core Lab Game Systems\rhythmaction\rhythmaction\test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\short\Google Drive\3 Junior\Fall Semester\Core Lab Game Systems\rhythmaction\rhythmaction\test_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\short\Google Drive\3 Junior\Fall Semester\Core Lab Game Systems\rhythmaction\rhythmaction\test_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\short\Google Drive\3 Junior\Fall Semester\Core Lab Game Systems\rhythmaction\rhythmaction\test_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.086 seconds
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-Platform assembly: C:\Users\short\Documents\rhythmaction\rhythmaction\test_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\short\Google Drive\3 Junior\Fall Semester\Core Lab Game Systems\rhythmaction\rhythmaction\test_Data\Managed\System.dll (this message is harmless)
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 7a0 -> priority: 1 
+  Thread -> id: 2754 -> priority: 1 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 3.937796 ms
+UnloadTime: 5.903809 ms
 
 Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 9124.
-Total: 1.340788 ms (FindLiveObjects: 0.401908 ms CreateObjectMapping: 0.133011 ms MarkObjects: 0.755784 ms  DeleteObjects: 0.049263 ms)
+Total: 2.405696 ms (FindLiveObjects: 0.655613 ms CreateObjectMapping: 0.249601 ms MarkObjects: 1.410165 ms  DeleteObjects: 0.088263 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.467827 ms
+
+Unloading 75 unused Assets to reduce memory usage. Loaded Objects now: 374.
+Total: 0.342380 ms (FindLiveObjects: 0.041463 ms CreateObjectMapping: 0.048852 ms MarkObjects: 0.193358 ms  DeleteObjects: 0.057884 ms)
 
